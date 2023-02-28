@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Página Padrão</title>
+        <meta charset="utf-8" />
+        
+        <!-- Fontes do Google -->
+        <link href="https://fonts.googleapis.com/css?family=Abel|Lobster" rel="stylesheet" />
+        
+        <!-- Fonte de ícones -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        
+        <!-- Meus CSS -->
+        <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+        <link type="text/css" rel="stylesheet" href="css/responsivo.css" />
+        
+    </head>
+    <body>
+        <!-- início da página -->
+        <section>
+            <div class='container'>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <h1>
+                                <i class="fa fa-car"></i> 
+                                Galeria de Carros
+                            </h1>
+                            <div id="imgBox">                                
+                                <a href="#" class="flecha" id="flechaEsq">
+                                    <i class="fa fa-chevron-left fa-2x"></i>
+                                </a>
+                                <a href="#" class="flecha" id="flechaDir">
+                                    <i class="fa fa-chevron-right fa-2x"></i>
+                                </a>   
+                                <a href="#" id="lupa">
+                                    <i class="fa fa-search fa-2x"></i>
+                                </a>  
+                                <a href="#" id="play"">
+                                    <i class="fa fa-play fa-2x"></i>
+                                </a>
+                            </div>
+                            <div id="boxBolinha">
+                                <a href="" class="bolinha"></a>
+                                <a href="" class="bolinha"></a>
+                                <a href="" class="bolinha"></a>
+                                <a href="" class="bolinha"></a>
+                                <a href="" class="bolinha"></a>
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col">
+                                    <div class="thumb" data-carro="corvette" style="background-image: url(images/corvette.jpg)"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="thumb" data-carro="ferrari" style="background-image: url(images/ferrari.jpg)"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="thumb" data-carro="mustang" style="background-image: url(images/mustang.jpg)"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="thumb" data-carro="eldorado" style="background-image: url(images/eldorado.jpg)"></div>
+                                </div>
+                                <div class="col">
+                                    <div class="thumb" data-carro="buick" style="background-image: url(images/buick.jpg)"></div>
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="row">
+                                <div class="col">
+                                    <button class="btn btn-dark btn-block btFundo" data-fundo="carrara.jpg">Mármore</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-dark btn-block btFundo" data-fundo="bricks.jpg">Tijolos</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-dark btn-block btFundo" data-fundo="cozinha.jpg">Quadriculado</button>
+                                </div>
+                                <div class="col">
+                                    <button class="btn btn-dark btn-block btFundo" data-fundo="fundo01.jpg">Mosaico</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- final da página -->
+
+        <div class="modal fade" tabindex="-1" role="dialog" id="modalZoom">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <img src="" class='w-100' id="imgGrande" />
+                <p id="legenda" class="text-center"></p>
+            </div>
+        </div>
+        
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/codigo.js"></script>
+        
+        <!-- meus scripts -->
+        <script type="text/javascript">
+             
+        </script>
+         
+    </body>
+</html>

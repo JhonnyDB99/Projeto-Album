@@ -1,0 +1,103 @@
+/* css */
+body {
+    background: url(../images/fundo01.jpg);
+    font-family: Abel, sans-serif;
+}
+.titulo {
+    font-family: Lobster, cursive;
+}
+.card {
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0px 0px 8px #333;
+    padding: 15px;
+    margin:25px 0px;
+}
+
+/* galeria */
+.thumb {
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    margin: 0px 3px;
+}
+#imgBox {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    margin:10px 0px;
+    border: 1px dotted #333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.flecha {
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    padding: 8px 15px;
+    position: absolute;
+    top: 40%;
+    border-radius: 50%;
+}
+.flecha:hover {
+    color: #d7d7d7;
+}
+#flechaEsq {
+    left: 20px;
+}
+#flechaDir {
+    right: 20px;
+}
+#boxBolinha {
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+.bolinha {
+    color: #333;
+    margin: 0px 5px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 0px 10px;    
+}
+.bolinha.active {
+    background-color: #ff0;
+}
+.cinza {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+#play {
+    background: rgba(90,90,90,0.6);
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+#lupa {
+    background: rgba(90,90,90,0.6);
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 80px;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+#legenda {
+    font-size: 20px;
+    text-align: center;
+    background: rgba(90,90,90,0.6);
+    color: #fff;
+    padding: 5px 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
